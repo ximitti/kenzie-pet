@@ -13,7 +13,7 @@ class Animal(models.Model):
 
     characteristics = models.ManyToManyField(Characteristic)
 
-    group_id = models.ForeignKey(Group, on_delete=models.CASCADE)
+    group = models.ForeignKey(Group, on_delete=models.CASCADE, related_name="animals")
 
     class Meta:
         db_table = "animals"
