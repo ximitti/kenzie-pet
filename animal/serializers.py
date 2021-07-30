@@ -1,7 +1,7 @@
 from rest_framework import serializers
 
-from group.models import Group
-from characteristic.models import Characteristic
+from group.serializers import GroupSerializer
+from characteristic.serializers import CharacteristicSerializer
 
 # -----------------------------------
 
@@ -13,6 +13,6 @@ class AnimalSerializer(serializers.Serializer):
     weight = serializers.FloatField()
     sex = serializers.CharField()
 
-    group = Group()
+    group = GroupSerializer()
 
-    characteristics = Characteristic(many=True)
+    characteristics = CharacteristicSerializer(many=True)
