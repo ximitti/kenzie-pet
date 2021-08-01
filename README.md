@@ -7,7 +7,7 @@ Ao utilizar esta API, deve ser possível criar informações de animais, bem com
 Para instalar o sistema, é necessário seguir alguns passos, como baixar o projeto e fazer instalação das dependências. Para isso, é necessário abrir uma aba do terminal e digitar o seguinte:
 
 ## Este passo é para baixar o projeto
-git clone https://gitlab.com/ximitti/kenzie_pet.git
+git clone https://gitlab.com/ximitti/kenzie-pet.git
 Depois que terminar de baixar, é necessário entrar na pasta, criar um ambiente virtual e entrar nele:
 
 ## Entrar na pasta
